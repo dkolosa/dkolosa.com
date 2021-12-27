@@ -215,8 +215,9 @@ See &quot;Publication&quot; above for more.<br />
 		<div class="media-container-row">
 		<div class="mbr-text counter-container col-12 col-md-8 mbr-fonts-style display-7">
 		<ul>
-			<li>Using C# to develop and manage a web application allowing using to manage an animal database.</li>
-			<li>Writing Python scripts using Pandas to parse genetic datasets, and convert to a jason readable format with an emphasis on performance</li>
+			<li>Developed a tool to load and process large genotype data using Python and C++ improving the processing speed from 7 to 3 hours.</li>
+			<li>Using C#, developed a web application allowing customer service to easily manage errors reported by customers.</li>
+			<li>Wrote Python scripts using Pandas to parse genetic datasets, and convert to a jason configuration format reducing creation time from 2 hours to 30 minutes.</li>
 			<li>Using .Net core, created an application to process genetic data to multiple databases reducing latency of existing systems.</li>
 		</ul>
 		</div>
@@ -233,7 +234,7 @@ See &quot;Publication&quot; above for more.<br />
 
 <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-7">August 2019 - December 2019<br />
 <br />
-Department of Mechanical and aerospace Engineering, Western Michigan University,<br />
+Department of Mechanical and Aerospace Engineering, Western Michigan University,<br />
 Kalamazoo,MI</h3>
 </div>
 </div>
@@ -341,6 +342,10 @@ Jet Propulsion Laboratory, Pasedena, California<br />
 <strong>Thesis: </strong><br />
 <br />
 A Reinforcement Learning Approach to Spacecraft Trajectory Optimization</p>
+&nbsp;
+
+<div class="mbr-section-btn align-center"><a class="btn btn-md btn-primary display-4" href="https://scholarworks.wmich.edu/dissertations/3542/" target="_blank">View Paper</a></div>
+
 </div>
 </div>
 </div>
@@ -410,7 +415,7 @@ Attitude Control System&nbsp;</p>
 
 <div class="card-box">
 <p class="mbr-text mbr-fonts-style display-7"><br />
-Python, SQL, C#, Java, C/C++, Javascript, HTML, Bash, R, Matlab, Visual Basic<br />
+Python, SQL, C#, Matlab, C/C++, Java, Javascript, HTML, Bash, R, , Visual Basic<br />
 &nbsp;</p>
 </div>
 </div>
@@ -437,7 +442,7 @@ Linux/Unix (Ubuntu, Arch Linux), Windows, Mac OS X</p>
 
 <div class="card-box">
 <p class="mbr-text mbr-fonts-style display-7"><br />
-Tensorflow, Keras, Numpy, Scipy, Matplotlib, Scikit-Lean, Pandas, Pytorch, Jupyter Notebook, STK 11, Orekit, Micosoft Office, Django, .NET core</p>
+Tensorflow, Keras, Pytorch, Numpy, Scipy, Matplotlib, Scikit-Lean, Pandas, Jupyter Notebook, STK 11, Orekit, Micosoft Office, Django, .NET core</p>
 </div>
 </div>
 
@@ -458,140 +463,170 @@ GIT</p>
 </section>
 
 <section class="mbr-section article content9 cid-qVF5Ncfo7v" id="content9-prj">
-<div class="container">
-<div class="inner-container" style="width: 100%;">
-<hr class="line" style="width: 100%;" />
-<div class="section-text align-center mbr-fonts-style display-1">PROJECTS</div>
+	<div class="container">
+	<div class="inner-container" style="width: 100%;">
+	<hr class="line" style="width: 100%;" />
+	<div class="section-text align-center mbr-fonts-style display-1">PROJECTS</div>
 
-<hr class="line" style="width: 100%;" /></div>
-</div>
+	<hr class="line" style="width: 100%;" /></div>
+	</div>
 
-<section class="features8 cid-qVENu5g1vL" id="features8-p">
-<div class="container">
-<div class="media-container-row">
-<div class="card  col-12 col-md-6 col-lg-4">
-<div class="card-img"></div>
 
-<div class="card-box align-center">
-<h3 class="card-title mbr-fonts-style display-7">Satmind<br />
-&nbsp;</h3>
-Based off of Deep Deterministic Policy Gradients, developed a machine learning algorithm to control an electric propulsion satellite. The algorithm was able to learn 3 spacecraft missions: orbit raising, semimajor axis change (MEO to GEO), and inclination change maneuvers. Both the actor and critic are use a fully-connected neural network using layer normalization and RELU for the activation layers<br />
-Version 1.0 is avaliable!<br />
-&nbsp;
-<p></p>
+	<section class="features8 cid-qVENu5g1vL" id="features8-p">
 
-<div class="mbr-section-btn text-center"><a class="btn btn-primary display-4" href="https://github.com/dkolosa/Satmind" target="_blank" rel="noopener">See Details</a></div>
-</div>
-</div>
+	<!-- <div class="container"> -->
+	<div class="media-container-row" "container">
+		<div class="card  col-12 col-md-6 col-lg-4">
+		<div class="card-img"></div>
 
-<div class="card  col-12 col-md-6 col-lg-4">
-<div class="card-img"></div>
+		<div class="card-box align-center">
+			
+			<h3 class="card-title mbr-fonts-style display-7">Carla pilot/vision - Developing a autonomous vehicle to navigate in a simulated environment.<br />
+			&nbsp;</h3>
+				Using the CARLA library and Pytorch, trained a car (agent) to navigate the environment using the Twin-Delayed Deep Deterministic Policy Gradients.
+				The agent will be trained using data obtained from an expert navigating a car through the environment.
+				The agent will be able to detect objects in its environment using the YOLOv4 algorithm and will be able to react based the objects detected.
+				This is currently a WORK IN PROGRESS.
 
-<div class="card-box align-center">
-<h3 class="card-title mbr-fonts-style display-7">Space Debris Classifier<br />
-&nbsp;</h3>
-Imported a the space debris dataset for star-track.org listing all of the tracked debris around Earth. Implemented K-means clustering and PCA dimensionality reduction to determine significant relationships between the features of the dataset Used decision trees, and cross-validation to successfully classify the size and type of debris.<br />
-<br />
-<br />
-<br />
-&nbsp;
-<p></p>
+			<br />
+			&nbsp;
+			<p></p>
+			<div class="mbr-section-btn text-center"><a class="btn btn-primary display-4" href="https://github.com/dkolosa/carla_pilot" target="_blank" rel="noopener">See Details</a></div>
+		</div>
+		</div>
+			
+		<div class="card  col-12 col-md-6 col-lg-4">
+			
+		<div class="card-img"></div>
 
-<div class="mbr-section-btn text-center"><a class="btn btn-primary display-4" href="https://github.com/dkolosa/SpaceDebrisClassifier" target="_blank" rel="noopener">See Details</a></div>
-</div>
-</div>
+		<div class="card-box align-center">
+			<h3 class="card-title mbr-fonts-style display-7">Satmind - A Reinforcement Learning Approach to Spacecraft Trajectory Optimization<br />
+			&nbsp;</h3>
+			Based off of Deep Deterministic Policy Gradients, developed a machine learning algorithm to control an electric propulsion satellite. 
+			he algorithm was able to learn 3 spacecraft missions: orbit raising, semimajor axis change (MEO to GEO), and inclination change maneuvers. Both the actor and critic are use a fully-connected neural network using layer normalization and RELU for the activation layers<br />
+			Version 1.0 is avaliable!<br />
+			&nbsp;
+			<p></p>
 
-<div class="card  col-12 col-md-6 col-lg-4">
-<div class="card-img"></div>
+			<div class="mbr-section-btn text-center"><a class="btn btn-primary display-4" href="https://github.com/dkolosa/Satmind" target="_blank" 
+				rel="noopener">See Details</a></div>
+		</div>
+		</div>
 
-<div class="card-box align-center">
-<h3 class="card-title mbr-fonts-style display-7">Foot Pressure Mapping</h3>
+		<div class="card  col-12 col-md-6 col-lg-4">
+			<div class="card-img"></div>
 
-<div class="card-box align-center">&nbsp;<br />
-Using Piezoelectric sensors to map the pressure distribution on the foot. An arduino was used to process the input signals from the sensor and transmitted via bluetooth. An android app was developed to interface with the arduino allowing a user to view where more pressure was applied.<br />
-<br />
-<br />
-&nbsp;
-<p></p>
-&nbsp;
+			<div class="card-box align-center">
+				<h3 class="card-title mbr-fonts-style display-7">Space Debris Classifier<br />
+				&nbsp;</h3>
+				Imported a space debris dataset from star-track.org listing all of the tracked space objects around Earth. 
+				Used a Random Forest Regressor model to predict the decay date of various objects and optimizing its hyperparameters 
+				using grid search cross validation to achieve a training a test accuracy of 98% and 68%, respectively. 
+				Also implemented a nearest neighbors classifier to predict an object’s radar cross-section resulting in a training 
+				and test accuracy of 70% and 68%, respectively.
+				&nbsp;
+				<p></p>
+				<br>
+				<br>
+				<div class="mbr-section-btn text-center"><a class="btn btn-primary display-4" 
+					href="https://github.com/dkolosa/SpaceDebrisClassifier" target="_blank" rel="noopener">See Details</a></div>
+			</div>
+		</div>
 
-<p></p>
+		</div>
+	</div>
 
-<div class="mbr-section-btn text-center"><a class="btn btn-primary display-4" href="https://github.com/dkolosa/footpressuremapping" target="_blank" rel="noopener">See Details</a></div>
-</div>
-</div>
-</div>
-</div>
+	<div class="media-container-row">
 
-<div class="media-container-row">
-<div class="card  col-12 col-md-6 col-lg-4">
-<div class="card-img"></div>
+		<div class="card  col-12 col-md-6 col-lg-4">
+			<div class="card-img"></div>
+			<div class="card-box align-center">
+				<h3 class="card-title mbr-fonts-style display-7">Foot Pressure Mapping</h3>
+				<div class="card-box align-center">&nbsp;<br />
+					Using Piezoelectric sensors to map the pressure distribution on the foot. An arduino was used to process the input signals from the sensor and transmitted via bluetooth. An android app was developed to interface with the arduino allowing a user to view where more pressure was applied.<br />
+					<br />
+					<br />
+					&nbsp;
+					<p></p>
+					&nbsp;
+		
+					<p></p>
+		
+					<div class="mbr-section-btn text-center"><a class="btn btn-primary display-4" href="https://github.com/dkolosa/footpressuremapping" 
+						target="_blank" rel="noopener">See Details</a></div>
+				</div>
+			</div>
+		</div>
 
-<div class="card-box align-center">
-<h3 class="card-title mbr-fonts-style display-7">TFC Engine Plugin</h3>
 
-<div class="card-box align-center">&nbsp;<br />
-Developed a custom engine plugin in C# for AGI&#39;s STK program. The engine plugin is based off of Thrust-Fourier Coefficients and integrates into Astrogator.<br />
-See conferences, &quot;A TFC Approach to Low-Thrust Trajectory Optimization in STK&quot; above, for the technical paper.<br />
-<br />
-<br />
-&nbsp;
-<p></p>
-&nbsp;
+	<div class="card  col-12 col-md-6 col-lg-4">
+		<div class="card-img"></div>
 
-<p></p>
+		<div class="card-box align-center">
+			<h3 class="card-title mbr-fonts-style display-7">TFC Engine Plugin</h3>
 
-<div class="mbr-section-btn text-center"><a class="btn btn-primary display-4" href="https://github.com/dkolosa/TFCEnginePlugin" target="_blank" rel="noopener">See Details</a></div>
-</div>
-</div>
-</div>
-<!-- <div class="card  col-12 col-md-6 col-lg-4">
-					<div class="card-img"></div>
-					
-					<div class="card-box align-center">
-						<h4 class="card-title mbr-fonts-style display-7">2D shooter in Unity</h4>
+			<div class="card-box align-center">&nbsp;<br />
+				Developed a custom engine plugin in C# for AGI&#39;s STK program. The engine plugin is based off of Thrust-Fourier Coefficients and integrates into Astrogator.<br />
+				See conferences, &quot;A TFC Approach to Low-Thrust Trajectory Optimization in STK&quot; above, for the technical paper.<br />
+				<br />
+				<br />
+				&nbsp;
+				<p></p>
+				&nbsp;
+
+				<p></p>
+
+					<div class="mbr-section-btn text-center"><a class="btn btn-primary display-4" href="https://github.com/dkolosa/TFCEnginePlugin" target="_blank" rel="noopener">See Details</a></div>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="card  col-12 col-md-6 col-lg-4">
+						<div class="card-img"></div>
 						
 						<div class="card-box align-center">
-							&nbsp;</h4>
-							<br />
-							Developed a 2D game in Unity using precreated assets. You are a spaceman trying to navigate through a cave, try not to get hit by the aliens.
-							You have to hurry to get to the goal before you run out of air. 
-							<br />
-							<br />
-							<br />
-							<br>
-							<br>
+							<h4 class="card-title mbr-fonts-style display-7">2D shooter in Unity</h4>
+							
+							<div class="card-box align-center">
+								&nbsp;</h4>
+								<br />
+								Developed a 2D game in Unity using precreated assets. You are a spaceman trying to navigate through a cave, try not to get hit by the aliens.
+								You have to hurry to get to the goal before you run out of air. 
+								<br />
+								<br />
+								<br />
+								<br>
+								<br>
+								&nbsp;</p>
 							&nbsp;</p>
-						&nbsp;</p>
-						<div class="mbr-section-btn text-center"><a class="btn btn-primary display-4" href="https://github.com/dkolosa/footpressuremapping" target="_blank">See Details</a></div>
-						</div>
-					</div> --><!-- </div> -->
+							<div class="mbr-section-btn text-center"><a class="btn btn-primary display-4" href="https://github.com/dkolosa/footpressuremapping" target="_blank">See Details</a></div>
+							</div>
+						</div> --><!-- </div> -->
 
-<div class="card  col-12 col-md-6 col-lg-4">
-<div class="card-img"></div>
+	<div class="card  col-12 col-md-6 col-lg-4">
+	<div class="card-img"></div>
 
-<div class="card-box align-center">
-<h4 class="card-title mbr-fonts-style display-7">LQR Controller</h4>
+	<div class="card-box align-center">
+	<h4 class="card-title mbr-fonts-style display-7">LQR Controller</h4>
 
-<div class="card-box align-center">&nbsp;<br />
-Developed a linear quadratic regulator to aprroximate the trhsut vector for an electic propulsion spacecraft. Input an initial and target orbit state and target time and the application calculates a trajectory.<br />
-<br />
-<br />
-<br />
-<br />
-&nbsp;
-<p></p>
-&nbsp;
+	<div class="card-box align-center">&nbsp;<br />
+	Developed a linear quadratic regulator to aprroximate the trhsut vector for an electic propulsion spacecraft. Input an initial and target orbit state and target time and the application calculates a trajectory.<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	&nbsp;
+	<p></p>
+	&nbsp;
 
-<p></p>
+	<p></p>
 
-<div class="mbr-section-btn text-center"><a class="btn btn-primary display-4" href="https://github.com/dkolosa/LQController" target="_blank" rel="noopener">See Details</a></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
+	<div class="mbr-section-btn text-center"><a class="btn btn-primary display-4" href="https://github.com/dkolosa/LQController" target="_blank" rel="noopener">See Details</a></div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</section>
 </section>
 
 <!--<script src="assets/bootstrap/js/lazysizes.min.js" async></script>-->
@@ -610,7 +645,8 @@ Developed a linear quadratic regulator to aprroximate the trhsut vector for an e
 <br />
 <br />
 Email: <a href="mailto:contact@dkolosa.com?Subject=Hello">contact@dkolosa.com</a><br />
-Github:<a href="https://github.com/dkolosa" target="_blank" rel="noopener"> github.com/dkolosa</a></p>
+Github:<a href="https://github.com/dkolosa" target="_blank" rel="noopener"> github.com/dkolosa</a> <br>
+Linkedin:<a href="https://www.linkedin.com/in/daniel-kolosa-54b8b0185/" target="_blank" rel="noopener"> Linkedin</a></p>
 </div>
 </div>
 </div>
